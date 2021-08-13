@@ -10,7 +10,7 @@ function compute()
     var principalInt = parseInt(principal);
 
     // I validate whether the user inputted a positive number in the Amount text box
-    if (principalInt === 0 || principalInt < 0 || principalInt === null) {
+    if (principalInt === 0 || principalInt < 0 || principalInt === undefined) {
 
         alert("Enter a positive number as the amount");
 
