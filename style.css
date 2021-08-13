@@ -17,7 +17,7 @@ label{
     float: left;
     clear: left;
     width: 150px;
-    text-align: right;
+    text-align: left;
 }
 input {
   display: inline-block;
