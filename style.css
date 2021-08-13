@@ -14,19 +14,19 @@ h1{color:grey;font-family:verdana}
 
 label{
     display: inline-block;
-    float: center;
+    float: left;
     clear: left;
     width: 150px;
     text-align: left;
 }
 input {
   display: inline-block;
-  float: center;
+  float: left;
 }
 
 select {
   display: inline-block;
-  float: center;
+  float: left;
 }
 
 .rateval {
