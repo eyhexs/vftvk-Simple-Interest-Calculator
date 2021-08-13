@@ -13,7 +13,7 @@ h1{color:grey;font-family:verdana}
 }
 label{
     display: table-cell;
-    text-align: right;
+    text-align: left;
 }
 input {
   display: table-cell;
