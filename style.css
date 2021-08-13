@@ -12,26 +12,6 @@ h1{color:grey;font-family:verdana}
   background-color: yellow;
 }
 
-label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 150px;
-    text-align: left;
-}
-input {
-  display: inline-block;
-  float: left;
-}
 
-select {
-  display: inline-block;
-  float: left;
-}
-
-.rateval {
-  display: inline-block;
-  float: left;
-}
 
 
