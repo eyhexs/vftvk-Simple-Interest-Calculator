@@ -24,4 +24,9 @@ input {
   float: left;
 }
 
+select {
+  display: inline-block;
+  float: left;
+}
+
 
