@@ -3,6 +3,7 @@ function compute()
 {
 
 
+    // I get the value of the amount text field
     var principal = document.getElementById("principal").value;
 
     // I transform the variable principal into an integer
@@ -18,12 +19,16 @@ function compute()
 
     } else {
 
+        //I get the value for the rate slider
         var rate = document.getElementById("rate").value;
 
+        // I get the value for the years field
         var years = document.getElementById("years").value;
 
+        // I calculate the interest
         var interest = principal * years * rate /100;
 
+        // I calculate the year
         var year = new Date().getFullYear()+parseInt(years);
 
         // I set the innerHTML value of the result element, highligthing the numbers
