@@ -3,7 +3,7 @@ h1{color:grey;font-family:verdana}
 .maindiv {
     background-color:white;
     color:black;
-    width:500px;
+    width:450px;
     padding:20px;
     border-radius:25px;
     align:center;
@@ -11,15 +11,17 @@ h1{color:grey;font-family:verdana}
 .highlight {
   background-color: yellow;
 }
+
 label{
-    display: table-cell;
-    text-align: left;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
 }
 input {
-  display: table-cell;
-}
-div.row{
-    display:table-row;
+  display: inline-block;
+  float: left;
 }
 
 
