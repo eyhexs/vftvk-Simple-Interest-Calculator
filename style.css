@@ -29,7 +29,7 @@ select {
   float: left;
 }
 
-span {
+.rateval {
   display: inline-block;
   float: left;
 }
