@@ -11,4 +11,14 @@ h1{color:grey;font-family:verdana}
 .highlight {
   background-color: yellow;
 }
+label{
+    display: table-cell;
+    text-align: right;
+}
+input {
+  display: table-cell;
+}
+div.row{
+    display:table-row;
+}
 
