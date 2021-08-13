@@ -33,10 +33,11 @@ function compute()
 
 }
 
+
 //this function updates the rate_val value when the slider is changed
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-        
+  
